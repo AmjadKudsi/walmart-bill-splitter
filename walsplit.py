@@ -90,6 +90,8 @@ def main():
     if "extra_items" not in st.session_state:
         st.session_state.extra_items = []
 
+    st.sidebar.image("logo.png", width=100)  # or any size you prefer
+
 
     with st.sidebar.expander("Members"):
         # Pressing Enter here calls add_member()
