@@ -2,6 +2,8 @@
 
 A Streamlit app to parse Walmart PDF receipts, assign items to people using a drag-and-drop Kanban interface, and split costs with summary exports.
 
+![Walsplit Webpage](Walsplit-Page.png)
+
 ## Features
 
 - PDF parsing with `pdfplumber`
