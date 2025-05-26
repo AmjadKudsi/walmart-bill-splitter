@@ -1,0 +1,23 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+.cache/
+*.db
+
+# PyInstaller builds
+dist/
+build/
+*.spec
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Conda envs
+env/
+*.env
